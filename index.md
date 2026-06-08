@@ -1,6 +1,5 @@
 ---
 title: "NoHello — Chat Etiquette"
-pagetitle: "NoHello — Chat Etiquette"
 ---
 
 # NoHello — Chat Etiquette  
