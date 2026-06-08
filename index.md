@@ -18,14 +18,11 @@ Send your greeting **and** your question together.
 ## 💬 Chat Etiquette
 
 ### ❌ What *not* to do
-12:32 you: Hello...
+12:32 you: Hello!!!
 12:32 co-worker: Hi.
-
-co-worker now waits...
+...co-worker now waits...
 12:34 you: I'm working on [something] and trying to do [etc...]
 12:35 co-worker: Here's the answer...
-
-Code
 
 This is the chat equivalent of saying “hello” on the phone and immediately putting the person on hold.
 
@@ -34,8 +31,6 @@ This is the chat equivalent of saying “hello” on the phone and immediately p
 ### ✔️ What to do instead
 12:32 you: Hello — I'm working on [something] and trying to do [etc...]
 12:33 co-worker: [answers]
-
-Code
 
 - Faster help  
 - Less waiting  
@@ -66,8 +61,6 @@ All of these translate to: *“Prepare to wait.”*
 ## ✔️ A Polite and Efficient Alternative
 Hi — if you're not busy, I was wondering if I could ask a question.
 I'm working on [something] and trying to do [etc...]
-
-Code
 
 Clear, polite, and efficient.
 
