@@ -1,8 +1,8 @@
-# Please Don't Just Say Hello In Chat
+# Please Don't Just Say Hello In Teams
 
-## TL;DR
+## TL;DR -- Too Long; Didn’t Read
 
-Modern chat communication should be done in a way that saves time for all
+Modern/Computer/SMS/Teams, aka 'Chat" message communication should be done in a way that saves time for all
 participants and enables an efficient, asynchronous exchange of information.
 **Don't expect an answer if you just write "Hello" in chat**. Don't call
 someone out of the blue. Instead, phrase a message that allows your chat
@@ -12,7 +12,7 @@ and answer your message.
 ## Chat Etiquette
 
 ```text
-2010-07-19 12:32:12 you: Hello
+2010-07-19 12:32:12 you: Hello...
 2010-07-19 12:32:15 co-worker: Hi.
 # CO-WORKER WAITS WHILE YOU PHRASE YOUR QUESTION
 2010-07-19 12:34:01 you: I'm working on [something] and I'm trying to do [etc...]
@@ -70,8 +70,8 @@ Instead of sending a call probe, or asking "hey, do you have time for a call?"
 2020-07-08 12:32:12 you: Hi - do you have X min for a quick call to talk about XYZ? [etc...]
 ```
 
-This does three things: it time bounds the request, it gives the recipient some
-context, and it helps you remember what you wanted to talk about if the
-recipient can't or doesn't respond until later.
+This does four things: it time bounds the request, it gives the recipient some
+context, it helps you remember what you wanted to talk about if the
+recipient can't or doesn't respond until later and helps the recipient to gauge the time required to answer you.
 
-<sup>The source for this website is open and available on [GitHub](https://github.com/sbmueller/nohello).</sup>
+<sup>The source for this website is open and available on [GitHub](https://github.com/bzzbr/nohello_us).</sup>
