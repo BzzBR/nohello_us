@@ -35,14 +35,15 @@ Envie sua saudação **e** sua pergunta juntas.
 - Menos espera  
 - Mais produtividade para todos  
 
-## ⏳ Por que isso importa  
+### ⏳ Por que isso importa
+
 Chat **não** é uma ligação telefônica.  
 Chat é **assíncrono** — e isso é bom.
 
 - Se a outra pessoa está ausente, ela pode retornar e imediatamente ver sua pergunta completa.  
 - Se você enviar apenas "Olá", ela retorna e vê… nada.
 ---
-## 🚫 Evite Estes  
+### 🚫 Evite Estes  
 ```
   - "Olá?"
   - "Oi!!" 
@@ -53,7 +54,7 @@ Chat é **assíncrono** — e isso é bom.
 ```
 Todos estes traduzem para: *"Prepare-se para esperar, esperar, esperar..."*
 
-## ✔️ Uma Alternativa Educada e Eficiente
+### ✔️ Uma Alternativa Educada e Eficiente
 ```
   Oi — se você não estiver ocupado, eu gostaria de fazer uma pergunta.
   Estou trabalhando em [algo] e tentando fazer [etc...]
