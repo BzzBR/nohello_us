@@ -1,7 +1,7 @@
 ---
 title: "NoHello — Chat Etiquette"
 ---
-### *Efficient communication for people who value time, flow, and sanity.*
+## *Efficient communication for people who value time, flow, and sanity.*
 
 ---
 
@@ -35,14 +35,14 @@ Send your greeting **and** your question together.
 - Less waiting  
 - More productivity for everyone  
 
-## ⏳ Why This Matters  
+### ⏳ Why This Matters  
 Chat is **not** a phone call.  
 Chat is **asynchronous** — and that’s a good thing.
 
 - If the other person is away, they can return and immediately see your full question.  
 - If you send only “Hello”, they return and see… nothing.
 ---
-## 🚫 Avoid These  
+### 🚫 Avoid These  
 ```
   - “Hello?”
   - “Hi!!” 
@@ -53,7 +53,7 @@ Chat is **asynchronous** — and that’s a good thing.
 ```
 All of these translate to: *“Prepare to wait, wait, wait...”*
 
-## ✔️ A Polite and Efficient Alternative
+### ✔️ A Polite and Efficient Alternative
 ```
   Hi — if you're not busy, I was wondering if I could ask a question.
   I'm working on [something] and trying to do [etc...]
