@@ -1,6 +1,6 @@
 # Nohello
 
-This is the source of [this](https://aka.ms/nohellous) website.
+This is the source of [this](https://aka.ms/nohello_us) website.
 
 ## Build
 
