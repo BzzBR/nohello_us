@@ -17,8 +17,8 @@ jobs:
           args: "pandoc --standalone --metadata pagetitle=\"nohello\" --css \"assets/css/pandoc.css\" --output=index.html index.md"
       - name: Commit
         run: |
-          git config --global user.name "Sebastian Müller"
-          git config --global user.email "gsenpo@gmail.com"
+          git config --global user.name "Alex Y. Y."
+          git config --global user.email "bzzbr[_]yuji.at"
           git add index.html
           git commit -m "[BOT] Generate HTML from Markdown"
       - name: Push
