@@ -5,7 +5,7 @@ on:
       - "index.md"
     branches:
       - master
-workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   generate-html:
