@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "index.md"
+      - "index_ptbr.md"  # ✅Translated PT-BR
     branches:
       - master
   workflow_dispatch:
@@ -36,10 +37,25 @@ jobs:
             --to html5 \
             --output index.html
 
+      - name: Generate HTML Portuguese Brazilian with Pandoc (modern)  # ✅ Adicione este passo
+        run: |
+          pandoc index_ptbr.md \
+            --standalone \
+            --metadata pagetitle="nohello - Português" \
+            --css "assets/css/pandoc.css" \
+            --from markdown \
+            --to html5 \
+            --output index_ptbr.html
+
       - name: Minify HTML
         uses: docker://tdewolff/minify
         with:
           args: -o index.html index.html
+
+      - name: Minify HTML Portuguese Brazilian  # ✅ Adicione este passo
+        uses: docker://tdewolff/minify
+        with:
+          args: -o index_ptbr.html index_ptbr.html
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
@@ -57,4 +73,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
