@@ -1,4 +1,5 @@
-name: generate-html
+name: generate-and-deploy-html
+
 on:
   push:
     paths:
@@ -7,24 +8,53 @@ on:
       - master
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
-  generate-html:
+  build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Run pandoc
-        uses: docker://pandoc/latex:2.9
-        with:
-          args: "pandoc --standalone --metadata pagetitle=\"nohello\" --css \"assets/css/pandoc.css\" --output=index.html index.md"
-      - name: Commit
+
+      - name: Install modern Pandoc (3.x)
         run: |
-          git config --global user.name "Alex Y. Y."
-          git config --global user.email "bzzbr[_]yuji.at"
-          git add index.html
-          git commit -m "[BOT] Generate HTML from Markdown"
-      - name: Push
-        uses: ad-m/github-push-action@master
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      - name: Generate HTML with Pandoc (modern)
+        run: |
+          pandoc index.md \
+            --standalone \
+            --metadata pagetitle="nohello" \
+            --css "assets/css/pandoc.css" \
+            --from markdown \
+            --to html5 \
+            --output index.html
+
+      - name: Minify HTML
+        uses: docker://tdewolff/minify
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          args: -o index.html index.html
+
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
