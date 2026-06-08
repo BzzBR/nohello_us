@@ -1,8 +1,6 @@
 ---
 title: "NoHello — Chat Etiquette"
 ---
-
-# NoHello — Chat Etiquette  
 ### *Efficient communication for people who value time, flow, and sanity.*
 
 ---
