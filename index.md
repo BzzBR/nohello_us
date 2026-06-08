@@ -1,77 +1,93 @@
-# Please Don't Just Say Hello In Teams
+---
+title: "NoHello — Chat Etiquette"
+pagetitle: "NoHello — Chat Etiquette"
+---
 
-## TL;DR -- Too Long; Didn’t Read
+# NoHello — Chat Etiquette  
+### 🗂️ *Efficient communication for people who value time, flow, and sanity.*
 
-Modern/Computer/SMS/Teams, aka 'Chat" message communication should be done in a way that saves time for all
-participants and enables an efficient, asynchronous exchange of information.
-**Don't expect an answer if you just write "Hello" in chat**. Don't call
-someone out of the blue. Instead, phrase a message that allows your chat
-partners to provide a meaningful response as soon as they allocate time to read
-and answer your message.
+---
 
-## Chat Etiquette
+## 📝 TL;DR  
+Chat is meant to **save time**.  
+Sending only **“Hello”** forces the other person to wait while you type the real message.  
+Send your greeting **and** your question together.
 
-```text
-2010-07-19 12:32:12 you: Hello...
-2010-07-19 12:32:15 co-worker: Hi.
-# CO-WORKER WAITS WHILE YOU PHRASE YOUR QUESTION
-2010-07-19 12:34:01 you: I'm working on [something] and I'm trying to do [etc...]
-2010-07-19 12:35:21 co-worker: Oh, that's [answer...]
-```
+---
 
-It's as if you called someone on the phone and said "Hello!" and then put them on
-hold!
+## 💬 Chat Etiquette
 
-Please do this instead:
+### ❌ What *not* to do
+12:32 you: Hello...
+12:32 co-worker: Hi.
 
-```text
-2010-07-19 12:32:12 you: Hello -- I'm working on [something] and I'm trying to do [etc...]
-2010-07-19 12:33:32 co-worker: [answers question]
-```
+co-worker now waits...
+12:34 you: I'm working on [something] and trying to do [etc...]
+12:35 co-worker: Here's the answer...
 
-Note that you get help minutes sooner, and you don't make them wait. Instead,
-the co-worker can start thinking about your question right away!
+Code
 
-You're trying to be polite by not jumping right into the request, like you
-would do in person or on the phone. But Chat is neither of those things. Typing
-is much slower than talking. Instead of being polite, you are just making the
-other person wait for you to phrase your question, which is lost productivity.
+This is the chat equivalent of saying “hello” on the phone and immediately putting the person on hold.
 
-The same goes for "Hello -- Are you there?", "Hi Bob -- quick question.", "Do
-you have a sec ?", "yt?" and "ping". Just ask the question!
+---
 
-If you feel it's brusque to simply say "Hi" and ask the question, you can do
-something like this:
+### ✔️ What to do instead
+12:32 you: Hello — I'm working on [something] and trying to do [etc...]
+12:33 co-worker: [answers]
 
-```text
-2010-07-19 12:32:12 you: Hi -- if you're not busy I was wondering if I could ask a question. I'm working on [something] and I'm trying to do [etc...]
-```
+Code
 
-Additionally, asking your question before getting a reply allows asynchronous
-communication. If the other party is away, and you leave before they come back,
-they can still answer your question, instead of just staring at a "Hello" and
-wondering what they missed.
+- Faster help  
+- Less waiting  
+- More productivity for everyone  
 
-## Call Etiquette
+---
 
-Don't call someone out of the blue. Respect that your desired call partner
-might be busy and in [flow](https://en.wikipedia.org/wiki/Flow_(psychology)).
-Calling someone means you request immediate, full attention, interrupting any
-other activity. Some people like to probe with an initial "hello" to verify
-whether the presence status shown is true, hoping they can determine whether
-the recipient is near a device, then will immediately follow up with a call.
-Don't do that either.  If someone is able and willing to answer a chat message,
-it does not mean that they are also available for a voice or video call.
+## ⏳ Why This Matters  
+Chat is **not** a phone call.  
+Chat is **asynchronous** — and that’s a good thing.
 
-Instead of sending a call probe, or asking "hey, do you have time for a call?"
-(which is better but not great), you can try something like this:
+If the other person is away, they can return and immediately see your full question.  
+If you send only “Hello”, they return and see… nothing.
 
-```text
-2020-07-08 12:32:12 you: Hi - do you have X min for a quick call to talk about XYZ? [etc...]
-```
+---
 
-This does four things: it time bounds the request, it gives the recipient some
-context, it helps you remember what you wanted to talk about if the
-recipient can't or doesn't respond until later and helps the recipient to gauge the time required to answer you.
+## 🚫 Avoid These  
+- “Hello?”  
+- “Hi, quick question.”  
+- “yt?”  
+- “ping”  
+- “Do you have a sec?”  
 
-<sup>The source for this website is open and available on [GitHub](https://github.com/bzzbr/nohello_us).</sup>
+All of these translate to: *“Prepare to wait.”*
+
+---
+
+## ✔️ A Polite and Efficient Alternative
+Hi — if you're not busy, I was wondering if I could ask a question.
+I'm working on [something] and trying to do [etc...]
+
+Code
+
+Clear, polite, and efficient.
+
+---
+
+## 📞 Call Etiquette
+
+### ❌ Don’t
+- Call without warning  
+- Send “Hello?” and immediately call  
+- Use chat as a radar to check if someone is “really there”  
+
+### ✔️ Do
+Hi — do you have X minutes for a quick call about XYZ?
+
+Code
+
+This gives context, sets expectations, and avoids interrupting someone who might be deep in focus.
+
+---
+
+## 🧭 Footer  
+*Made with clarity, courtesy, and a healthy respect for everyone’s time.*
