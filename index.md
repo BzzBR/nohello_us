@@ -41,8 +41,7 @@ Chat is **asynchronous** — and that’s a good thing.
 
 - If the other person is away, they can return and immediately see your full question.  
 - If you send only “Hello”, they return and see… nothing.
-  
----
+ 
 
 #### 🚫 Avoid These  
 ```
@@ -61,7 +60,8 @@ All of these translate to: *“Prepare to wait, wait, wait...”*
   I'm working on [something] and trying to do [etc...]
 ```
 Clear, polite, and efficient.
-
+ 
+---
 ### 📞 Call Etiquette
 
 #### ❌ Don’t Call
