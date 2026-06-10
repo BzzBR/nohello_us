@@ -42,7 +42,9 @@ Chat é **assíncrono** — e isso é bom.
 
 - Se a outra pessoa está ausente, ela pode retornar e imediatamente ver sua pergunta completa.  
 - Se você enviar apenas "Olá", ela retorna e vê… nada.
+  
 ---
+
 #### 🚫 Evite Estes  
 ```
   - "Olá?"
