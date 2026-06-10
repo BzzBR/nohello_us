@@ -43,8 +43,6 @@ Chat é **assíncrono** — e isso é bom.
 - Se a outra pessoa está ausente, ela pode retornar e imediatamente ver sua pergunta completa.  
 - Se você enviar apenas "Olá", ela retorna e vê… nada.
   
----
-
 #### 🚫 Evite Estes  
 ```
   - "Olá?"
@@ -63,6 +61,7 @@ Todos estes traduzem para: *"Prepare-se para esperar, esperar, esperar..."*
 ```
 Claro, educado e eficiente.
 
+---
 ### 📞 Etiqueta em Ligações
 
 #### ❌ Não Ligue
