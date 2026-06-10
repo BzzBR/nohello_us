@@ -41,7 +41,9 @@ Chat is **asynchronous** — and that’s a good thing.
 
 - If the other person is away, they can return and immediately see your full question.  
 - If you send only “Hello”, they return and see… nothing.
+  
 ---
+
 #### 🚫 Avoid These  
 ```
   - “Hello?”
